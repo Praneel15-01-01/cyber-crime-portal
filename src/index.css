@@ -237,3 +237,34 @@ small {
 .nav-links a:hover {
   text-decoration: underline;
 }
+.alerts-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.alert-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  padding: 14px 18px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.alert-card:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.alert-card summary {
+  font-weight: 600;
+  color: #38bdf8;
+  font-size: 1rem;
+  outline: none;
+}
+
+.alert-card p {
+  margin-top: 10px;
+  color: #cbd5e1;
+  line-height: 1.5;
+}
