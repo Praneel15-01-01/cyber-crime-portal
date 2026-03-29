@@ -1,9 +1,9 @@
- import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
     <nav className="navbar">
-      <h1 className="title">Cyber Crime Reporting Portal</h1>
+      <h1 className="title"> </h1>
 
       <div className="nav-links">
         <Link to="/">Home</Link>
