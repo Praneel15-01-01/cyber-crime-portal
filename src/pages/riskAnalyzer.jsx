@@ -84,7 +84,7 @@ function RiskAnalyzer() {
 
   return (
     <div className="page-container">
-      <h2>Cybersecurity Risk Analyzer</h2>
+      <h2><strong><u>Cybersecurity Risk Analyzer</u></strong></h2>
 
       <p style={{ maxWidth: "650px", marginBottom: "25px" }}>
         Rate your online behaviour from 1 (Never) to 10 (Always). Your

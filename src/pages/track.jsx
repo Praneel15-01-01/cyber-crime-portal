@@ -13,7 +13,7 @@ function Track({ reports }) {
 
   return (
     <div className="page-container">
-      <h2>Track Complaint Status</h2>
+      <h2><strong><u>Track Complaint Status</u></strong></h2>
 
       <p style={{ maxWidth: "600px", marginBottom: "20px" }}>
         Enter your Complaint ID or name to check the current status of
