@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Navbar from "./components/navbar";
 import Home from "./pages/home";
 import Report from "./pages/report";
-import Track from "./pages/Track";
+import Track from "./pages/track";
 import RiskAnalyzer from "./pages/riskAnalyzer";
 import Dashboard from "./pages/dashboard";
 
