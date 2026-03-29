@@ -21,7 +21,7 @@ function App() {
   return (
     <Router>
       <>
-        {/* HEADER */}
+
         <div
           style={{
             width: "100%",
