@@ -7,7 +7,7 @@ function Report({ reports, setReports }) {
   const [image, setImage] = useState(null);
   const [generatedID, setGeneratedID] = useState(null);
 
-  const MAX_FILE_SIZE = 2 * 1024 * 1024; // 2MB
+  const MAX_FILE_SIZE = 2 * 1024 * 1024;
 
   const handleImageUpload = (e) => {
     const file = e.target.files[0];
@@ -67,7 +67,7 @@ function Report({ reports, setReports }) {
   return (
     <div className="page-container">
 
-      <h2>Report Cyber Crime</h2>
+      <h2><strong><u>Report Cyber Crime</u></strong></h2>
 
       <p style={{ marginBottom: "30px", maxWidth: "600px" }}>
         Use this form to report suspected cyber crimes such as phishing,
@@ -82,7 +82,7 @@ function Report({ reports, setReports }) {
             <label>Full Name</label>
             <input
               type="text"
-              placeholder="Enter your full name"
+              placeholder="Enter your full name:"
               value={name}
               onChange={(e) => setName(e.target.value)}
               required

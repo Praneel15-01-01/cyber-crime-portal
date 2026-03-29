@@ -1,7 +1,7 @@
 function Home() {
   return (
     <div className="page-container">
-      
+
 
       <p style={{ maxWidth: "650px", marginBottom: "25px" }}>
         This platform allows citizens to report cybercrime incidents,
@@ -11,7 +11,7 @@ function Home() {
 
       <hr />
 
-      <h2 style={{ marginTop: "30px" }}>What You Can Do</h2>
+      <h2 style={{ marginTop: "30px" }}><strong><u>What You Can Do?</u></strong></h2>
 
       <ul>
         <li>Submit cybercrime complaints securely</li>
@@ -20,7 +20,7 @@ function Home() {
         <li>Evaluate your cybersecurity risk level</li>
       </ul>
 
-      <h2>Recent Cybercrime Alerts</h2>
+      <h2><strong><u>Recent Cybercrime Alerts</u></strong></h2>
 
       <div className="alerts-container">
 
