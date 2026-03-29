@@ -21,7 +21,7 @@ function Home() {
       </ul>
 
       <div className="alert-section">
-        <h2>Recent Cybercrime Alerts</h2>
+
 
         <div className="alert-section">
           <h2>Recent Cybercrime Alerts</h2>
