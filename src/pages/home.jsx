@@ -1,7 +1,7 @@
 function Home() {
   return (
     <div className="page-container">
-      <h1>Cyber Crime Reporting Portal</h1>
+      
 
       <p style={{ maxWidth: "650px", marginBottom: "25px" }}>
         This platform allows citizens to report cybercrime incidents,
