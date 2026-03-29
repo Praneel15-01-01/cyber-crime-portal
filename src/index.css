@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
 
-/* GLOBAL ROOT SETTINGS */
+
 
 :root {
   font-family: "Inter", system-ui, sans-serif;
@@ -15,7 +15,7 @@
 }
 
 
-/* BODY RESET */
+
 
 body {
   margin: 0;
@@ -23,7 +23,7 @@ body {
 }
 
 
-/* LINKS */
+
 
 a {
   font-weight: 500;
@@ -37,7 +37,7 @@ a:hover {
 }
 
 
-/* HEADINGS */
+
 
 h1 {
   font-size: 3rem;
@@ -54,7 +54,7 @@ h3 {
 }
 
 
-/* BUTTONS */
+
 
 button {
   border-radius: 8px;
@@ -84,7 +84,7 @@ button.delete-btn:hover {
 }
 
 
-/* CARD STYLE (USED EVERYWHERE) */
+
 
 .report-card,
 .stat-card,
@@ -103,7 +103,7 @@ button.delete-btn:hover {
 }
 
 
-/* STATUS BADGES */
+
 
 .status-badge {
   padding: 5px 12px;
@@ -129,7 +129,7 @@ button.delete-btn:hover {
 }
 
 
-/* INPUT FIELDS */
+
 
 input,
 textarea {
@@ -159,7 +159,7 @@ textarea:focus {
 }
 
 
-/* STATISTICS GRID (DASHBOARD) */
+
 
 .stats-grid {
   display: grid;
@@ -182,14 +182,14 @@ textarea:focus {
 }
 
 
-/* NAVBAR SPACING */
+
 
 nav {
   margin-bottom: 35px;
 }
 
 
-/* REPORT ACTION BUTTON GROUP */
+
 
 .report-actions {
   display: flex;
@@ -198,14 +198,14 @@ nav {
 }
 
 
-/* TRACK RESULT CARD */
+
 
 .track-result-card {
   margin-top: 20px;
 }
 
 
-/* SMALL TEXT */
+
 
 small {
   color: #94a3b8;
